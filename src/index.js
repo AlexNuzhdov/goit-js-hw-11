@@ -78,7 +78,7 @@ async function  onLoadMore() {
 
 function clearPage() {
   refs.gallery.innerHTML = '';
-  page = 1;
+  currentPage = 1;
 
 };
 let lightbox = new SimpleLightbox('.gallery a', {
