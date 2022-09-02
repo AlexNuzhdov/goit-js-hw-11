@@ -10,11 +10,13 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-image: linear-gradient(to right , #0000ff, yellow);
 }
 
 .search-form {
-  margin-left: 500px;
+  margin-left: 550px;
   margin-bottom: 20px;
+  
 }
 
 :root {
@@ -62,6 +64,8 @@ body {
 
 .btnSearch {
   background-color: #2196F3;
+  cursor: pointer;
+  
   
 }
 .load-more {
@@ -86,3 +90,5 @@ margin-bottom: 0;
   margin-right: 35px;
   margin-top: 0;
 }
+
+
